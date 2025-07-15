@@ -1021,7 +1021,7 @@ static void stgMenu_dl_ReviewMainCBS(void)
                     hal_Oled_ShowString(0,14*stgMainMenuSelectedPos,pMenu->pModeType,8,1);
                     hal_Oled_Refresh();
 
-                    pMenu = pMenu->pNext;                                                                                                                                                        //切换下一个选项
+                    pMenu = pMenu->pNext;       
                     stgMainMenuSelectedPos++;
                 }
             break;
