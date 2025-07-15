@@ -76,11 +76,11 @@ stu_mode_menu generalModeMenu[GNL_MENU_SUM] =
 // Initialize the SettingModeMenu
 stu_mode_menu settingModeMenu[STG_MENU_SUM] = 
 {
-    {STG_MENU_MAIN_SETTING,STG_MENU_POS,(unsigned char *)"Main Menu",stgMenu_MainMenuCBS,SCREEN_CMD_RESET,0,0xFF,0,0,0,0},                			 // 设置主界面
-    {STG_MENU_LEARNING_SENSOR,STG_SUB_2_MENU_POS,(unsigned char *)"1. Learning Dtc",stgMenu_LearnSensorCBS,SCREEN_CMD_RESET,0,0xFF,0,0,0,0},         // 探测器配对界面
-    {STG_MENU_DTC_LIST,STG_SUB_2_MENU_POS,(unsigned char *)"2. Dtc List",stgMenu_DTCListCBS,SCREEN_CMD_RESET,0,0xFF,0,0,0,0},                        // 探测器列表界面
-    {STG_MENU_MACHINE_INFO,STG_SUB_2_MENU_POS,(unsigned char *)"3. Mac Info",stgMenu_MachineInfoCBS,SCREEN_CMD_RESET,0,0xFF,0,0,0,0},                // 设备信息界面
-    {STG_MENU_FACTORY_SETTINGS,STG_SUB_2_MENU_POS,(unsigned char *)"4. Default Setting",stgMenu_FactorySettingsCBS,SCREEN_CMD_RESET,0,0xFF,0,0,0,0}, // 恢复出厂设置界面
+    {STG_MENU_MAIN_SETTING,STG_MENU_POS,(unsigned char *)"Main Menu",stgMenu_MainMenuCBS,SCREEN_CMD_RESET,0,0xFF,0,0,0,0},                		
+    {STG_MENU_LEARNING_SENSOR,STG_SUB_2_MENU_POS,(unsigned char *)"1. Learning Dtc",stgMenu_LearnSensorCBS,SCREEN_CMD_RESET,0,0xFF,0,0,0,0},        
+    {STG_MENU_DTC_LIST,STG_SUB_2_MENU_POS,(unsigned char *)"2. Dtc List",stgMenu_DTCListCBS,SCREEN_CMD_RESET,0,0xFF,0,0,0,0},                        
+    {STG_MENU_MACHINE_INFO,STG_SUB_2_MENU_POS,(unsigned char *)"3. Mac Info",stgMenu_MachineInfoCBS,SCREEN_CMD_RESET,0,0xFF,0,0,0,0},                
+    {STG_MENU_FACTORY_SETTINGS,STG_SUB_2_MENU_POS,(unsigned char *)"4. Default Setting",stgMenu_FactorySettingsCBS,SCREEN_CMD_RESET,0,0xFF,0,0,0,0}, 
 };
 
 // Initialize the DetectorListMenu
